@@ -3,7 +3,7 @@ data "aws_secretsmanager_secret" "mq_username" {
 }
 
 data "aws_secretsmanager_secret" "mq_password" {
-  name = "amazon-mq-nia-broker-password"
+  name = "lab-results-mq-password"
 }
 
 data "aws_secretsmanager_secret" "docdb_master_username" {
