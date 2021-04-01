@@ -6,7 +6,7 @@ locals {
     },
     {
       name = "LAB_RESULTS_AMQP_PASSWORD"
-      valueFrom = data.aws_secretsmanager_secret.mq_password.arn
+      value = "test"
     },
     {
       name = "LAB_RESULTS_MONGO_USERNAME"
